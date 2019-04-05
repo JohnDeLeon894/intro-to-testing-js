@@ -20,6 +20,9 @@ function sayHello(input) {
     //     return "Hello, Pat!";
     // }
     // return "";
+    if(input === undefined){
+        return "Hello, World!";
+    }
     return "Hello, " + input + "!";
 }
 
